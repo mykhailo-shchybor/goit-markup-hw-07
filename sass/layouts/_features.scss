@@ -1,0 +1,51 @@
+.icon-list {
+	display: flex;
+}
+
+.icon-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: var(--bg-buttom-team);
+
+	margin-bottom: 30px;
+	margin-right: 30px;
+	width: 270px;
+	height: 120px;
+}
+
+.features-list {
+	display: flex;
+
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.features-title {
+	display: none;
+}
+
+.features-list .item:not(:last-child) {
+	margin-right: 30px
+}
+
+.features-subtitle {
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--titel-text-color);
+}
+
+.features-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7142;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}

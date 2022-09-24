@@ -1,6 +1,7 @@
-// util styles
+// utils styles
 @import "./utils/vars";
 @import "./utils/visually-hidden";
+// @import "./";
 
 // base styles
 @import "./base/base";
@@ -9,6 +10,16 @@
 
 
 // layout styles
+@import "./layouts/heder";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/work";
+@import "./layouts/team";
+@import "./layouts/customers";
+@import "./layouts/footer";
+@import "./layouts/footer-subscribe";
+
+
 
 
 // component styles
