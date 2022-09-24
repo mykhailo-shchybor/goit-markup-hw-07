@@ -1,1 +1,88 @@
 /*# sourceMappingURL=main.css.map */
+:root {
+  --titel-text-color: #212121;
+  --accent-color: #2196F3;
+  --button-hover: #188CE8;
+  --primary-text-color: #757575;
+  --primary-white-color: #FFFFFF;
+  --bg-hero-footer: #2F303A;
+  --primary-bg-color: #F5F5F5;
+  --bg-buttom-team: #F5F4FA;
+  --link-color-foot: rgba(255, 255, 255, 0.6);
+  --logo-color-prim: #000000;
+  --border-color: #ECECEC;
+  --social-link-color: #AFB1B8;
+  --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--titel-text-color);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
