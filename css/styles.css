@@ -1,14 +1,14 @@
 
 
 /* :root{
-	--titel-text-color: #212121;
+	--title-text-color: #212121;
 	--accent-color: #2196F3;
 	--button-hover: #188CE8;
 	--primary-text-color: #757575;
 	--primary-white-color: #FFFFFF;
 	--bg-hero-footer: #2F303A;
 	--primary-bg-color: #F5F5F5;
-	--bg-buttom-team: #F5F4FA;
+	--bg-button-team: #F5F4FA;
 	--link-color-foot: rgba(255, 255, 255, 0.6);
     --logo-color-prim: #000000;
 	--border-color: #ECECEC;
@@ -20,7 +20,7 @@
 
 /* body {
 	background-color: var(--primary-white-color);
-	 color: var(--titel-text-color);
+	 color: var(--title-text-color);
 	font-size: 14px;
 	font-family: 'Roboto',sans-serif;
 	letter-spacing: 0.03em;
@@ -90,7 +90,7 @@ img {
 	margin-right: auto;
 } */
 
-              /* Шапка */
+              /* header */
 
 /* .header {
 	border-bottom: 1px solid var(--border-color);
@@ -136,7 +136,7 @@ img {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--titel-text-color);
+	color: var(--title-text-color);
 	transition: color var(--anim-fast);
 }
 
@@ -287,7 +287,7 @@ img {
 .hero-button:hover,
 .hero-button:focus {
 	background-color: var(--primary-white-color);
-	color: var(--titel-text-color);
+	color: var(--title-text-color);
 } */
 
 
@@ -304,7 +304,7 @@ img {
 	align-items: center;
 	justify-content: center;
 
-	background-color: var(--bg-buttom-team);
+	background-color: var(--bg-button-team);
 
 	margin-bottom: 30px;
 	margin-right: 30px;
@@ -334,7 +334,7 @@ img {
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--titel-text-color);
+	color: var(--title-text-color);
 }
 
 .features-text {
@@ -358,7 +358,7 @@ font-family: 'Roboto';
 	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--titel-text-color)
+	color: var(--title-text-color)
 }
 
 .work-img {
@@ -403,7 +403,7 @@ font-family: 'Roboto';
 /* .section-team {
 	padding-bottom: 94px;
 	padding-top: 94px;
-	background: var(--bg-buttom-team);
+	background: var(--bg-button-team);
 }
 
 .team-list {
@@ -435,7 +435,7 @@ font-family: 'Roboto';
 	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--titel-text-color)
+	color: var(--title-text-color)
 }
 
 .team-subtitle {
@@ -445,7 +445,7 @@ font-family: 'Roboto';
 		line-height: 1.18;
 		text-align: center;
 		letter-spacing: 0.03em;
-		color: var(--titel-text-color);
+		color: var(--title-text-color);
 		margin-top: 30px;
 		margin-bottom: 10px;
 }
@@ -503,7 +503,7 @@ font-family: 'Roboto';
 		line-height: 1.16;
 		text-align: center;
 		letter-spacing: 0.03em;
-		color: var(--titel-text-color);
+		color: var(--title-text-color);
 		margin-bottom: 50px;
 }
 .list-customers {
@@ -680,7 +680,7 @@ fill: var(--accent-color);
 			margin-left: auto;
 		}
 	
-		.subscribe-lable {
+		.subscribe-label {
 			font-weight: 700;
 				font-size: 14px;
 				line-height: 16px;
@@ -770,7 +770,7 @@ fill: var(--accent-color);
 
            /* portfolio */
 
-.portfolio-button {
+/* .portfolio-button {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
@@ -825,7 +825,7 @@ fill: var(--accent-color);
 	padding-bottom: 6px;
 	padding-left: 22px;
 	border-radius: 4px;
-    background: var(--bg-buttom-team);
+    background: var(--bg-button-team);
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -833,7 +833,7 @@ fill: var(--accent-color);
 	text-align: center;
 	letter-spacing: 0.03em;
 	font-family: inherit;
-	color: var(--titel-text-color);
+	color: var(--title-text-color);
 	transition: box-shadow var(--anim-fast),
 			background-color var(--anim-fast),
 			color var(--anim-fast);
@@ -852,7 +852,7 @@ fill: var(--accent-color);
 		font-size: 18px;
 		line-height: 2;
 		letter-spacing: 0.06em;
-		color: var(--titel-text-color);
+		color: var(--title-text-color);
 		margin-bottom: 4px;
 }
 
@@ -894,9 +894,9 @@ fill: var(--accent-color);
 .portfolio-link:hover .overlay-card,
 .portfolio-link:focus .overlay-card {
 	transform: translateY(-100%);
-}
+} */
            /* Modal window */
-.backdrop {
+/* .backdrop {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -962,13 +962,13 @@ fill: var(--accent-color);
 	fill: var(--accent-color);
 }
 
-.titel-modal {
+.title-modal {
 	font-weight: 700;
 		font-size: 20px;
 		line-height: 23px;
 		text-align: center;
 		letter-spacing: 0.03em;
-		color: var(--titel-text-color);
+		color: var(--title-text-color);
 		margin: 0px 0px 12px;
 }
 
@@ -1058,7 +1058,7 @@ font-weight: 400;
 	color: var(--primary-text-color);
 }
 
-.form-coment {
+.form-comment {
 	margin-bottom: 4px;
 	margin-right: auto;
 	font-weight: 400;
@@ -1088,10 +1088,10 @@ font-weight: 400;
 		.textarea-comment:hover,
 		.textarea-comment:focus {
 			border-color: var(--accent-color);
-		}
+		} */
 
   /* checkbox */
-				.checkbox-form {
+				/* .checkbox-form {
 					display: flex;
 					align-items: center;
 					justify-content: center;
@@ -1134,9 +1134,9 @@ font-weight: 400;
 					color: var(--accent-color);
 					text-decoration-line: underline;
 					margin-left: 9px;
-				}
-/* footer botton */
-	.form-btn {
+				} */
+/* footer button */
+	/* .form-btn {
 			display: block;
 			border-radius: 4px;
 			padding: 10px 32px;
@@ -1162,4 +1162,4 @@ font-weight: 400;
 		.form-btn:hover,
 		.form-btn:focus {
 			background-color: var(--button-hover); 
-		}
+		} */
