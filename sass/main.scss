@@ -1,7 +1,7 @@
 // utils styles
 @import "./utils/vars";
 @import "./utils/visually-hidden";
-// @import "./";
+@import "./utils/placeholders.scss";
 
 // base styles
 @import "./base/base";
@@ -20,9 +20,6 @@
 @import "./layouts/footer-subscribe";
 
 
-
-
 // component styles
-
-@import "./utils/checkbox";
-@import "./utils/modal-window";
+@import "./components/checkbox";
+@import "./components/modal-window";

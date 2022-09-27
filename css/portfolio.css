@@ -1,4 +1,4 @@
-.portfolio-button {
+.porfolio-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,12 +7,10 @@
           justify-content: center;
   margin-bottom: 50px;
 }
-
-.portfolio-button .item {
+.porfolio-button .item {
   margin-left: 8px;
 }
-
-.portfolio-list {
+.porfolio-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,9 +21,34 @@
           justify-content: space-between;
   row-gap: 30px;
 }
-
-.portfolio-list .item:hover,
-.portfolio-list .item:focus {
+.porfolio-title {
+  display: none;
+}
+.porfolio-img {
+  background: var(--primary-white-color);
+}
+.porfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  margin-bottom: 4px;
+}
+.porfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.porfolio-link {
+  display: block;
+}
+.porfolio-link:hover .overlay-card, .porfolio-link:focus .overlay-card {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+.porfolio-list .item:hover, .porfolio-list .item:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -38,18 +61,6 @@
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
-}
-
-.portfolio-title {
-  display: none;
-}
-
-.button:hover,
-.button:focus {
-  background: var(--accent-color);
-  color: var(--primary-white-color);
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button {
@@ -74,29 +85,11 @@
   transition: box-shadow var(--anim-fast), background-color var(--anim-fast), color var(--anim-fast);
   transition: box-shadow var(--anim-fast), background-color var(--anim-fast), color var(--anim-fast), -webkit-box-shadow var(--anim-fast);
 }
-
-.portfolio-img {
-  background: var(--primary-white-color);
-}
-
-.portfolio-subtitle {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title-text-color);
-  margin-bottom: 4px;
-}
-
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
-
-.portfolio-link {
-  display: block;
+.button:hover, .button:focus {
+  background: var(--accent-color);
+  color: var(--primary-white-color);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .card {
@@ -125,10 +118,4 @@
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
-}
-
-.portfolio-link:hover .overlay-card,
-.portfolio-link:focus .overlay-card {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
 }/*# sourceMappingURL=portfolio.css.map */
