@@ -10,7 +10,6 @@
 	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	@extend %section;
 }
 
 
@@ -53,5 +52,5 @@
 .hero-button:hover,
 .hero-button:focus {
 	background-color: var(--primary-white-color);
-	color: var(--titel-text-color);
+	color: var(--title-text-color);
 }
