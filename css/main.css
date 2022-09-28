@@ -28,17 +28,17 @@
   overflow: hidden;
 }
 
-.hero {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 body {
   background-color: var(--primary-white-color);
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 ul {
@@ -135,7 +135,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
   -webkit-transition: color var(--anim-fast);
   transition: color var(--anim-fast);
 }
@@ -292,7 +292,7 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--primary-white-color);
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
 }
 
 .icon-list {
@@ -337,7 +337,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
 }
 .features-list_text {
   font-family: "Roboto";
@@ -360,7 +360,7 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
 }
 
 .work-img {
@@ -405,7 +405,7 @@ img {
 .section-team {
   padding-bottom: 94px;
   padding-top: 94px;
-  background: var(--bg-buttom-team);
+  background: var(--bg-button-team);
 }
 
 .team-list {
@@ -440,7 +440,7 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
 }
 
 .team-subtitle {
@@ -449,7 +449,7 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -704,7 +704,7 @@ img {
   transition: fill var(--anim-fast);
 }
 
-/* footer botton */
+/* footer button */
 .form-btn {
   display: block;
   border-radius: 4px;
@@ -736,7 +736,7 @@ img {
   margin-left: auto;
 }
 
-.subscribe-lable {
+.subscribe-label {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -959,13 +959,13 @@ img {
   fill: var(--accent-color);
 }
 
-.titel-modal {
+.title-modal {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
   margin: 0px 0px 12px;
 }
 
@@ -1062,7 +1062,7 @@ img {
   color: var(--primary-text-color);
 }
 
-.form-coment {
+.form-comment {
   margin-bottom: 4px;
   margin-right: auto;
   font-weight: 400;

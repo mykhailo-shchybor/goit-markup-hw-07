@@ -46,11 +46,11 @@
 			border-color: var(--accent-color);
 		}
 	
-		&_in:focus+&_holder {
+		&_in:focus + &_holder {
 			transform: translate(-1.1rem, -2ex) scale(70%);
 		}
 	
-		&_in:focus+&_holder,
+		&_in:focus + &_holder,
 		&_in:not(:placeholder-shown)+&_holder {
 			transform: translate(-1.1rem, -2ex) scale(70%);
 		}
