@@ -1,4 +1,4 @@
-.porfolio-button {
+.portfolio-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,10 +7,10 @@
           justify-content: center;
   margin-bottom: 50px;
 }
-.porfolio-button .item {
+.portfolio-button .item {
   margin-left: 8px;
 }
-.porfolio-list {
+.portfolio-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,13 +21,13 @@
           justify-content: space-between;
   row-gap: 30px;
 }
-.porfolio-title {
+.portfolio-title {
   display: none;
 }
-.porfolio-img {
+.portfolio-img {
   background: var(--primary-white-color);
 }
-.porfolio-subtitle {
+.portfolio-subtitle {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -35,20 +35,20 @@
   color: var(--title-text-color);
   margin-bottom: 4px;
 }
-.porfolio-text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.porfolio-link {
+.portfolio-link {
   display: block;
 }
-.porfolio-link:hover .overlay-card, .porfolio-link:focus .overlay-card {
+.portfolio-link:hover .overlay-card, .portfolio-link:focus .overlay-card {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }
-.porfolio-list .item:hover, .porfolio-list .item:focus {
+.portfolio-list .item:hover, .portfolio-list .item:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
